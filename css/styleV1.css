@@ -243,6 +243,42 @@ nav ul{
     line-height: 27.03px; /* 193.071% */
     margin:0 auto;
 }
+
+
+.main-img p{
+    color: #F8F8F8;
+    font-family: 'Lato', sans-serif;
+    font-size: 92px;
+    line-height: 27.03px; /* 29.38% */
+    transform: rotate(-180deg);
+    writing-mode: vertical-lr;   
+    padding-bottom: 18px; 
+}
+@media (max-width: 1400px){
+    .main-img p{
+        font-size: 80px;
+    }  
+}
+@media (max-width: 1200px){
+    .main-img p{
+        font-size: 65px;
+    }  
+}
+@media (max-width: 990px){
+    .main-img p{
+        font-size: 92px;
+    }  
+}
+@media (max-width: 770px){
+    .main-img p{
+        font-size: 75px;
+    }  
+}
+@media (max-width: 575px){
+    .main-img p{
+        display: none;
+    }  
+}
 /* Section */
 /* Top podcasts */
 .container-top-podcasts{
